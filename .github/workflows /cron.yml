@@ -2,7 +2,7 @@ name: Run Notion to Telegram Service Cron
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Setiap 2 menit jalan
+    - cron: '*/10 * * * *' # Setiap 10 menit jalan
   workflow_dispatch: # Bisa juga manual jalanin
 
 jobs:
